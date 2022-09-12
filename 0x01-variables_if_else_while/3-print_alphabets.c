@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-char lower_case;
-char upper_case;
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-	putchar(lower_case);
+	putchar(letter);
 }
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+for (letter = 'A'; letter <= 'Z'; letter++)
 {
-	putchar(upper_case);
+	putchar(letter);
 }
+putchar('\n');
 return (0);
 }
